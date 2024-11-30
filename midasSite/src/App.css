@@ -1,3 +1,6 @@
+.body {
+  background-color: black;
+}
 .container {
   display: flex;
   flex-direction: column;
@@ -5,6 +8,30 @@
   width: 100vw;
   justify-content: space-between;
   align-items: center;
+}
+
+.header p,
+.content-body p,
+.footer p {
+  background: radial-gradient(
+      ellipse farthest-corner at right bottom,
+      #fedb37 0%,
+      #fdb931 8%,
+      #9f7928 30%,
+      #8a6e2f 40%,
+      transparent 80%
+    ),
+    radial-gradient(
+      ellipse farthest-corner at left top,
+      #ffffff 0%,
+      #ffffac 8%,
+      #d1b464 25%,
+      #5d4a1f 62.5%,
+      #5d4a1f 100%
+    );
+  background-clip: text;
+  -webkit-background-clip: text; /* For Safari */
+  color: transparent;
 }
 
 .header {
@@ -15,8 +42,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-
-  background-color: lightblue;
+  background-color: black;
 }
 
 .content-body {
@@ -27,7 +53,7 @@
   justify-content: center;
   align-items: center;
 
-  background-color: dodgerblue;
+  background: rgb(250, 241, 224);
 }
 
 .footer {
@@ -38,7 +64,7 @@
 
   justify-content: center;
   align-items: center;
-  background-color: grey;
+  background: black;
 }
 
 .search {
@@ -47,8 +73,7 @@
   width: 100%;
   justify-content: center;
   align-items: center;
-
-  border: 1px solid brown;
+  border: 1px solid grey;
 }
 
 .center-console {
@@ -57,6 +82,5 @@
   width: 100%;
   justify-content: center;
   align-items: center;
-
-  border: 1px solid purple;
+  border: 1px solid lightgrey;
 }

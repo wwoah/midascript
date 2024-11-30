@@ -12,10 +12,16 @@ function App() {
           <p>cole</p> <p>Welcome to MidasScript!</p> <p>phillip</p>
         </div>
         <div className="content-body">
-          <div className="search">search bar and filters</div>
-          <div className="center-console">console</div>
+          <div className="search">
+            <p>search bar and filters</p>
+          </div>
+          <div className="center-console">
+            <p>console</p>
+          </div>
         </div>
-        <div className="footer">footer</div>
+        <div className="footer">
+          <p>footer</p>
+        </div>
       </div>
     </>
   );
