@@ -1,9 +1,7 @@
 This is a readme for the epic Midascript!
-
-TO DO (at a glance):
-
-    Add Components
-        Search, Filter, Game Console
+ 
+    TO DO: Begin structure of search/filter and console
+         
 
     Add Links
         Personal pages, game pages
