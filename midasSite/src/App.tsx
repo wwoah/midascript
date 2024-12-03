@@ -2,25 +2,29 @@ import { useEffect, useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
-import Button from "./components/Button";
+import Search from "./components/Search";
+import Header from "./components/Header";
+import Console from "./components/Console";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
       <div className="container">
         <div className="header">
-          <p>cole</p> <p>Welcome to MidasScript!</p> <p>phillip</p>
+          <Header />
         </div>
         <div className="content-body">
           <div className="search">
-            <p>search bar and filters</p>
+            <Search />
           </div>
           <div className="center-console">
-            <p>console</p>
+            <Console />
           </div>
         </div>
+        <div className="w-full border border-yellow-500">a</div>
         <div className="footer">
-          <p>footer</p>
+          <Footer />
         </div>
       </div>
     </>
