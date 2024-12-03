@@ -1,7 +1,9 @@
 export default function Search() {
   return (
     <>
-      <p>search bar and filters</p>
+      <p className="bg-custom-gradient bg-clip-text text-transparent">
+        search bar and filters
+      </p>
     </>
   );
 }

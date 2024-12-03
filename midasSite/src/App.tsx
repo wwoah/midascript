@@ -7,22 +7,19 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <div className="container">
-        <div className="header">
+      <div className="flex flex-col h-screen w-screen justify-between items-center">
+        <div className="bg-black flex flex-row w-full h-[10%] justify-between items-center p-10">
           <Header />
         </div>
-        <div className="content-body">
-          <div className="search">
+        <div className="bg-eggshell flex flex-col w-full h-[80%] justify-center items-center">
+          <div className="flex flex-row w-full h-[20%] justify-center items-center border border-grey">
             <Search />
           </div>
-          <div className="center-console">
+          <div className="flex flex-row w-full h-[80%] justify-center items-center border border-grey">
             <Console />
           </div>
         </div>
-        <div className="w-full border border-yellow-500 justify-center items-center">
-          a
-        </div>
-        <div className="footer">
+        <div className="bg-black flex flex-row w-full h-[10%] justify-center items-center">
           <Footer />
         </div>
       </div>

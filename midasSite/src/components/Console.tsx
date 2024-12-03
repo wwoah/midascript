@@ -1,9 +1,9 @@
 export default function Console() {
   return (
     <>
-      <div className="border border-red-600">
-        <p>console</p>
-      </div>
+      <p className="bg-custom-gradient bg-clip-text text-transparent">
+        console
+      </p>
     </>
   );
 }

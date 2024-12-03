@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <>
-      <p>footer</p>
+      <p className="bg-custom-gradient bg-clip-text text-transparent">footer</p>
     </>
   );
 }
