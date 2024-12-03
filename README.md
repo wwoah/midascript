@@ -1,15 +1,11 @@
 This is a readme for the epic Midascript!
  
-    TO DO: Begin structure of search/filter and console
+    TO DO: 
+    Populate the console with dummy game objects to navigate and test the search feature
          
-
-    Add Links
-        Personal pages, game pages
-
+    Eventually:
+    Add links to personal pages on the header 
     Create games!
-        Self explanatory
-
-Navigating to other pages.
 
 Some resources and content:
 
