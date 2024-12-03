@@ -1,6 +1,3 @@
-import { useEffect, useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import Search from "./components/Search";
 import Header from "./components/Header";
@@ -22,7 +19,9 @@ function App() {
             <Console />
           </div>
         </div>
-        <div className="w-full border border-yellow-500">a</div>
+        <div className="w-full border border-yellow-500 justify-center items-center">
+          a
+        </div>
         <div className="footer">
           <Footer />
         </div>
