@@ -1,9 +1,7 @@
 export default function Console() {
   return (
     <>
-      <p className="bg-custom-gradient bg-clip-text text-transparent">
-        console
-      </p>
+      <div className="flex bg-black w-[85%] h-[90%] border p-64"></div>
     </>
   );
 }
