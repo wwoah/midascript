@@ -1,6 +1,6 @@
 import GameCard from "./GameCard";
 
-// Define the shape of a game object
+//Define the shape of a game object
 interface Game {
   name: string;
   genre: string;
