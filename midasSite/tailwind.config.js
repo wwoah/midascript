@@ -28,6 +28,8 @@ module.exports = {
       transparent: "transparent",
       white: "#ffffff",
       grey: "rgb(186, 185, 182)",
+      purple: "rgb(55, 14, 150)",
+      royalBlue: "rgb(65, 105, 225)",
     },
   },
   plugins: [],
